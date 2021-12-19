@@ -5,7 +5,7 @@ let losses= 0;
 
 
 
-let opponentChoices = ["Rock", "Paper", "Scissors"];
+let options = ["R", "P", "S"];
 
 let myChoices = ["Rock", "Paper", "Scissors"];
 
