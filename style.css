@@ -1,5 +1,4 @@
 body {
-    background-color: black;
-    color: white;
-    
+  background: url(./assets/rock-paper-scissors.png);
+  color: rgb(3, 3, 3);
 }
