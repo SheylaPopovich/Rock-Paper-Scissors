@@ -1,4 +1,6 @@
 body {
   background: url(./assets/rock-paper-scissors.png);
-  color: rgb(3, 3, 3);
+  color: rgb(255, 255, 255);
+  font-family: "Anton", sans-serif;
+  font-family: "Press Start 2P", cursive;
 }
