@@ -1,1 +1,1 @@
-# Rock-Paper-Scissors-
+# Let's Play Rock, Paper, Scissors!
