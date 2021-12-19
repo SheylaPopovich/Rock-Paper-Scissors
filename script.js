@@ -1,4 +1,9 @@
 console.log("Hey hey you linked me!");
+let wins = 0;
+let ties = 0;
+let losses= 0;
+
+
 
 let opponentChoices = ["Rock", "Paper", "Scissors"];
 
