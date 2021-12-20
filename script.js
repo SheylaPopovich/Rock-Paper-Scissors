@@ -17,7 +17,6 @@ let playGame = function () {
   //used .toUpperCase method to compare inputs easier
   userChoice = userChoice.toUpperCase();
 
-
   //Math.random will allow for a random index to be selected from array
   var index = Math.floor(Math.random() * options.length);
   var computerChoice = options[index];
@@ -25,12 +24,15 @@ let playGame = function () {
   window.alert("The computer chose " + computerChoice);
 
   //this if statement is if user and opponent selects same choice
-  if(userChoice === opponentChoice) {
-      ties++;
-      window.alert("It's a tie!");
+  if (userChoice === opponentChoice) {
+    ties++;
+    window.alert("It's a tie!");
+  } else if (
+    (userChoice === "R" && opponentChoice === "S") ||
+    (userChoice === "P" && opponentChoice === "R") ||
+    (userChoice === "S" && opponentChoice === "p")
+  ) {
   }
-
-
 };
 
 //this will initiate the game
