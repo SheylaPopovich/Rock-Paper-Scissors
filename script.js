@@ -10,7 +10,7 @@ let playGame = function () {
   let userChoice = window.prompt("Enter R, P, or S:");
 
   //this will end the game if cancel is pressed
-  if (!opponentChoice) {
+  if (!userChoice) {
     return;
   }
 
