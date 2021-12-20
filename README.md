@@ -1,8 +1,6 @@
-# Let's Play Rock, Paper, Scissors!
+# **Let's Play Rock, Paper, Scissors!**
 
-# **Flexbox Strong**
 <br>
-
 
 # **Table of Contents**
 [Description](#description) |
@@ -15,37 +13,34 @@
 <br>
 
 ## **Description**
-This application was built for the intention of sharpening some of my older developer skills like the "Flexbox Model". In this application you will fine the use of flexbox and media queries to create a responsive grid layout.
+If you're going to be learning JavaScript why not make it into a game? This application was built using "Vanilla JavaScript". I implemented logical and comparison operators, conditional statements, and several methods to create the old fashion game Rock, Paper, Scissors.
 
 <br>
 
-With todays forever evolving technology media queries allow for your application to become "responsive". It allows you to create different layouts depending on the size of the viewport. Using media queries are a popular technique for delivering a tailored style sheet to desktops, laptops, tablets, and mobile phones such as iPhone and Android phones. In my application I set my media query breakpoints to max-width: 992px and max-width 768px. See demo images below.
+By using an "IF" statements I was able to compare the Users input versus the computers selection. The IF statement is a decision-making statement that guides a program to make decisions based on specified criteria. i.e -
+
+```
+if (userChoice === computerChoice) {
+    ties++;
+    window.alert("It's a tie!");
+```
 
 <br>
 
 
- Flexbox is a method for defining how components of a page behave across different devices and screen sizes. Flexbox was named for its "flexible" nature. It offers several benefits like dynamic rearranging, alignment, and direction. In my application I used a "flex container" with a value of display "flex" to set my images in a responsive row. In order for my row to respond as the screen size changed I added "flex wrap" for the image to fall onto another line. See demo images.
-
-
+ In order to make the application interactive I used  alert(), confirm(), and prompt() methods to collect user input and display information to the user. Give this application a try, see if you can beat the computer!
 
 <br>
 
 ## **Demo**
- Example of "flex row" at max width 992px screen size.
-![demo_pic](https://github.com/SheylaPopovich/flexbox-strong/blob/dd15614c0cc7eafd66591c7edb36a90fb84de800/Images/demo-full-pg.jpg)
+ ![demo_pic](https://github.com/SheylaPopovich/Rock-Paper-Scissors/blob/main/assets/demo-rps.png)
 <br>
-
-<br>
-
-Example of "flex row" at max width 768px screen size.
-![demo_pic](https://github.com/SheylaPopovich/flexbox-strong/blob/dd15614c0cc7eafd66591c7edb36a90fb84de800/Images/demo-half-pg.jpg)
-[Walkthrough Video](https://drive.google.com/file/d/1XTwZkhV7pLR4Y3hKoevxNGclxcKsGjWJ/view?usp=sharing)
 
 <br>
 
 ## **Application**
 
-<a href=" https://sheylapopovich.github.io/flexbox-strong/"><img src="https://img.shields.io/badge/-👉 See Live Site-success?style=for-the-badge"  alt="Live Site" /></a>
+<a href="https://sheylapopovich.github.io/Rock-Paper-Scissors/"><img src="https://img.shields.io/badge/-👉 See Live Site-success?style=for-the-badge"  alt="Live Site" /></a>
 
  <br>
  
@@ -66,6 +61,7 @@ I can also be reached via email<br>
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![GeeksForGeeks](https://img.shields.io/badge/GeeksforGeeks-gray?style=for-the-badge&logo=geeksforgeeks&logoColor=35914c)
 
