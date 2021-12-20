@@ -32,7 +32,21 @@ let playGame = function () {
     (userChoice === "P" && opponentChoice === "R") ||
     (userChoice === "S" && opponentChoice === "p")
   ) {
+    wins++;
+    window.alert("You win!");
+
+    //if the conditions above failed assume player lost
+  } else {
+    losses++;
+    window.alert("You lost!");
   }
+
+  window.alert(
+    "Stats:\nWins: " + wins + "\nLosses: " + losses + "\nTies: " + ties
+  );
+
+  //this will ask the user if they want to play again
+  let playAgain = window.confirm("Play again?");
 };
 
 //this will initiate the game
