@@ -5,7 +5,7 @@ let losses = 0;
 //an array consisting of options for user to pick from
 let options = ["R", "P", "S"];
 
-let playGame = function() {
+let playGame = function () {
   //this window prompt will have opponent enter their selection
   let opponentChoice = window.prompt("Enter R, P, or S:");
 
@@ -18,10 +18,10 @@ let playGame = function() {
   userChoice = userChoice.toUpperCase();
 
   //Math.random will allow for a random index to be selected from array
-  var index = Math.floor(Math.random() * options.length);
-  var computerChoice = options[index];
+  let index = Math.floor(Math.random() * options.length);
+  let opponentChoice = options[index];
 
-  window.alert("The computer chose " + computerChoice);
+  window.alert("The computer chose " + opponentChoice);
 
   //this if statement is if user and opponent selects same choice
   if (userChoice === opponentChoice) {
